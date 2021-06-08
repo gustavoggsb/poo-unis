@@ -30,7 +30,7 @@ public class IMCSwing {
     else if (imc >= 30 && imc <= 34.99)
       result = "Obesidade II";
     else
-      result = "Obesidade mórbida! Procure urgenteente um médico.";
+      result = "Obesidade mórbida! Procure um médico.";
 
     DecimalFormat formater = new DecimalFormat("##.##");
 
